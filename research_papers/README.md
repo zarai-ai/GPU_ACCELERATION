@@ -35,7 +35,7 @@ wget -O research_papers/distflashattention.pdf "https://arxiv.org/pdf/2310.03294
 wget -O research_papers/mesh_attention.pdf "https://arxiv.org/pdf/2512.20968"
 
 # WallFacer
-wget -O research_papers/wallface.pdf "https://arxiv.org/pdf/2407.00611"
+wget -O research_papers/wallFacer.pdf "https://arxiv.org/pdf/2407.00611"
 ```
 
 ## Papers Catalog
