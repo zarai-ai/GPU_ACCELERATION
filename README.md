@@ -6,6 +6,20 @@
 
 ---
 
+## 👨‍💻 Development Standards
+
+**For AI Agents & Contributors**: This repository adheres to research-grade, production-ready development standards:
+- ✅ **Zero Fallbacks** - One spec, research-faithful implementations only
+- ✅ **Real Research Code** - Use official repositories directly via FFI/bindings
+- ✅ **100% Production Ready** - All edge cases, concurrency, memory management handled
+- ✅ **Full E2E Testing** - Live usage simulation in real-world conditions
+- ✅ **0 Errors, 0 Warnings** - Flight-critical code quality (DO-178C compliant)
+
+📋 **See [AGENTS.md](AGENTS.md) for detailed development guidelines**  
+⚙️ **See [.github/copilot-instructions.md](.github/copilot-instructions.md) for Copilot configuration**
+
+---
+
 ## 🚀 Overview
 
 This repository represents the absolute cutting edge of GPU acceleration technology, synthesizing the most advanced research from 2024-2025 into a unified, production-ready system. We integrate state-of-the-art algorithms from leading research labs (Stanford, UC Berkeley, NVIDIA) to achieve unprecedented performance on modern GPU architectures.
@@ -404,6 +418,8 @@ optimized = optimize_kernel(my_kernel, target_hardware='h100')
 
 - **[ARCHITECTURE_MAP.md](ARCHITECTURE_MAP.md)**: Complete system architecture with diagrams
 - **[OWNERSHIP_TREE.md](OWNERSHIP_TREE.md)**: Component ownership and responsibility structure
+- **[AGENTS.md](AGENTS.md)**: Development guidelines for AI coding agents
+- **[.github/copilot-instructions.md](.github/copilot-instructions.md)**: GitHub Copilot configuration and coding standards
 - **Research Papers**: See `research_papers/` directory for full papers
 
 ---
